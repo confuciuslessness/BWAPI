@@ -1,0 +1,97 @@
+6/09/2018 10:02:21 PM 17260 Logging started
+6/09/2018 10:02:21 PM 17260 Begin Startup
+6/09/2018 10:02:21 PM 17260 Chaosauncher 0.5.4.4 on NT 6.2.9200  at D:\BWAPI\BWAPI\Chaoslauncher\Chaoslauncher.exe
+6/09/2018 10:02:21 PM 17260 Load Settings
+6/09/2018 10:02:21 PM 17260 GamePath: E:\Starcraft\StarCraft\\
+6/09/2018 10:02:21 PM 17260 Load Plugins
+6/09/2018 10:02:21 PM 17260 AdvLoaderPluginPath: \Plugins\
+6/09/2018 10:02:21 PM 17260 Loading BWL4-Plugin D:\BWAPI\BWAPI\Chaoslauncher\iccscbn.icc
+6/09/2018 10:02:21 PM 17260 Plugin loaded ICCup
+6/09/2018 10:02:21 PM 17260 Loading BWL4-Plugin D:\BWAPI\BWAPI\Chaoslauncher\Plugins\APMAlert.bwl
+6/09/2018 10:02:21 PM 17260 Plugin loaded APMAlert (1.16.1)
+6/09/2018 10:02:21 PM 17260 Loading BWL4-Plugin D:\BWAPI\BWAPI\Chaoslauncher\Plugins\BWAPI_PluginInjector.bwl
+6/09/2018 10:02:21 PM 17260 Plugin loaded BWAPI 4.1.2 Injector [RELEASE]
+6/09/2018 10:02:21 PM 17260 Loading BWL4-Plugin D:\BWAPI\BWAPI\Chaoslauncher\Plugins\BWAPI_PluginInjectord.bwl
+6/09/2018 10:02:21 PM 17260 Plugin loaded BWAPI 4.1.2 Injector [DEBUG]
+6/09/2018 10:02:21 PM 17260 Loading BWL4-Plugin D:\BWAPI\BWAPI\Chaoslauncher\Plugins\Chaosplugin.bwl
+6/09/2018 10:02:22 PM 17260 Plugin loaded Chaosplugin for 1.16.1
+6/09/2018 10:02:22 PM 17260 Loading BWL4-Plugin D:\BWAPI\BWAPI\Chaoslauncher\Plugins\LatencyChanger.bwl
+6/09/2018 10:02:22 PM 17260 Plugin loaded LatencyChanger for 1.16.1
+6/09/2018 10:02:22 PM 17260 Loading BWL4-Plugin D:\BWAPI\BWAPI\Chaoslauncher\Plugins\repfix.bwl
+6/09/2018 10:02:22 PM 17260 Plugin loaded RepFix
+6/09/2018 10:02:22 PM 17260 Loading BWL4-Plugin D:\BWAPI\BWAPI\Chaoslauncher\Plugins\RWAPlayer.bwl
+6/09/2018 10:02:22 PM 17260 Plugin loaded RWAPlayer (1.16.1)
+6/09/2018 10:02:22 PM 17260 Loading BWL4-Plugin D:\BWAPI\BWAPI\Chaoslauncher\Plugins\RWARecorder.bwl
+6/09/2018 10:02:22 PM 17260 Plugin loaded RWARecorder (1.16.1)
+6/09/2018 10:02:22 PM 17260 Loading BWL4-Plugin D:\BWAPI\BWAPI\Chaoslauncher\Plugins\Stormplugin.bwl
+6/09/2018 10:02:22 PM 17260 Plugin loaded Stormplugin for 1.16.1
+6/09/2018 10:02:22 PM 17260 Loading BWL4-Plugin D:\BWAPI\BWAPI\Chaoslauncher\Plugins\wmode.bwl
+6/09/2018 10:02:22 PM 17260 Plugin loaded W-MODE 1.02
+6/09/2018 10:02:22 PM 17260 Load Tools
+6/09/2018 10:02:22 PM 17260 Init GUI
+6/09/2018 10:02:22 PM 17260 Get Starcraftversions
+6/09/2018 10:02:22 PM 17260 Init complete
+6/09/2018 10:02:22 PM 17260 Check for updates
+6/09/2018 10:02:22 PM 17260 Update ICCup Antihack
+6/09/2018 10:02:23 PM 17260 Exception at: TIccPlugin.CheckForUpdates http.get(Update.info) class: EIdHTTPProtocolException msg: HTTP/1.1 403 Forbidden
+6/09/2018 10:02:23 PM 17260 Updateing APMAlert (1.16.1)
+6/09/2018 10:02:23 PM 17260 url: http://rockify.net/APMAlert/
+6/09/2018 10:02:24 PM 17260 Updateing BWAPI 4.1.2 Injector [RELEASE]
+6/09/2018 10:02:24 PM 17260 Updateing BWAPI 4.1.2 Injector [DEBUG]
+6/09/2018 10:02:24 PM 17260 Updateing Chaosplugin for 1.16.1
+6/09/2018 10:02:24 PM 17260 url: http://winner.cspsx.de/Starcraft/Tool/Update/
+6/09/2018 10:02:25 PM 17260 Updateing LatencyChanger for 1.16.1
+6/09/2018 10:02:25 PM 17260 url: http://winner.cspsx.de/Starcraft/Tool/LatencyUpdate/
+6/09/2018 10:02:26 PM 17260 Updateing RepFix
+6/09/2018 10:02:26 PM 17260 url: http://www.iccup.com/
+6/09/2018 10:02:27 PM 17260 Exception at: BwlUpdateCheck http.get(update) class: EIdHTTPProtocolException msg: HTTP/1.1 301 Moved Permanently
+6/09/2018 10:02:27 PM 17260 Updateing RWAPlayer (1.16.1)
+6/09/2018 10:02:27 PM 17260 url: http://rockify.net/RWA/Player/
+6/09/2018 10:02:28 PM 17260 Updateing RWARecorder (1.16.1)
+6/09/2018 10:02:28 PM 17260 url: http://rockify.net/RWA/Recorder/
+6/09/2018 10:02:28 PM 17260 Updateing Stormplugin for 1.16.1
+6/09/2018 10:02:28 PM 17260 url: http://winner.cspsx.de/Starcraft/Tool/StormUpdate/
+6/09/2018 10:02:29 PM 17260 Updateing W-MODE 1.02
+6/09/2018 10:02:29 PM 17260 Updateing Launcher
+6/09/2018 10:02:29 PM 17260 url: http://winner.cspsx.de/Starcraft/Tool/Launcherupdate/
+6/09/2018 10:02:30 PM 17260 No updates available
+6/09/2018 10:02:51 PM 17260 Check for updates
+6/09/2018 10:02:51 PM 17260 Update ICCup Antihack
+6/09/2018 10:02:52 PM 17260 Exception at: TIccPlugin.CheckForUpdates http.get(Update.info) class: EIdHTTPProtocolException msg: HTTP/1.1 403 Forbidden
+6/09/2018 10:02:52 PM 17260 Updateing APMAlert (1.16.1)
+6/09/2018 10:02:52 PM 17260 url: http://rockify.net/APMAlert/
+6/09/2018 10:02:52 PM 17260 Updateing BWAPI 4.1.2 Injector [RELEASE]
+6/09/2018 10:02:52 PM 17260 Updateing BWAPI 4.1.2 Injector [DEBUG]
+6/09/2018 10:02:52 PM 17260 Updateing Chaosplugin for 1.16.1
+6/09/2018 10:02:52 PM 17260 url: http://winner.cspsx.de/Starcraft/Tool/Update/
+6/09/2018 10:02:53 PM 17260 Updateing LatencyChanger for 1.16.1
+6/09/2018 10:02:53 PM 17260 url: http://winner.cspsx.de/Starcraft/Tool/LatencyUpdate/
+6/09/2018 10:02:54 PM 17260 Updateing RepFix
+6/09/2018 10:02:54 PM 17260 url: http://www.iccup.com/
+6/09/2018 10:02:55 PM 17260 Exception at: BwlUpdateCheck http.get(update) class: EIdHTTPProtocolException msg: HTTP/1.1 301 Moved Permanently
+6/09/2018 10:02:55 PM 17260 Updateing RWAPlayer (1.16.1)
+6/09/2018 10:02:55 PM 17260 url: http://rockify.net/RWA/Player/
+6/09/2018 10:02:55 PM 17260 Updateing RWARecorder (1.16.1)
+6/09/2018 10:02:55 PM 17260 url: http://rockify.net/RWA/Recorder/
+6/09/2018 10:02:56 PM 17260 Updateing Stormplugin for 1.16.1
+6/09/2018 10:02:56 PM 17260 url: http://winner.cspsx.de/Starcraft/Tool/StormUpdate/
+6/09/2018 10:02:57 PM 17260 Updateing W-MODE 1.02
+6/09/2018 10:02:57 PM 17260 Updateing Launcher
+6/09/2018 10:02:57 PM 17260 url: http://winner.cspsx.de/Starcraft/Tool/Launcherupdate/
+6/09/2018 10:02:58 PM 17260 No updates available
+6/09/2018 10:03:05 PM 17260 Startbutton
+6/09/2018 10:03:05 PM 17260 Starting Game Starcraft 1.16.1 E:\Starcraft\StarCraft\\StarCraft.exe
+6/09/2018 10:03:05 PM 17260 BWAPI 4.1.2 Injector [DEBUG] Version  Compatible
+6/09/2018 10:03:05 PM 17260 W-MODE 1.02 Version 1.0.2 Compatible
+6/09/2018 10:03:05 PM 17260 Could not obtain SeDebugPrivilege Not all privileges or groups referenced are assigned to the caller.
+(1300)
+6/09/2018 10:03:05 PM 17260 CreateProcess
+6/09/2018 10:03:05 PM 17260 Call ScSuspended for all active Plugins
+6/09/2018 10:03:05 PM 17260 ApplyPatchSuspended for BWAPI 4.1.2 Injector [DEBUG]
+6/09/2018 10:03:06 PM 17260 ApplyPatchSuspended for W-MODE 1.02
+6/09/2018 10:03:06 PM 17260 ResumeThread
+6/09/2018 10:03:06 PM 17260 WaitForInputIdle
+6/09/2018 10:03:06 PM 17260 Call ScWindowCreated for all active Plugins
+6/09/2018 10:03:06 PM 17260 ApplyPatch for BWAPI 4.1.2 Injector [DEBUG]
+6/09/2018 10:03:07 PM 17260 ApplyPatch for W-MODE 1.02
+6/09/2018 10:03:07 PM 17260 Starting Starcraft completed
