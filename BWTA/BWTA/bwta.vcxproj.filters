@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Interface">
+      <UniqueIdentifier>{4311c728-e729-46cb-bdce-9e8496bd297e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{bf1f60af-4ae2-4fc0-a94d-e6851ea9b5c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Balance">
+      <UniqueIdentifier>{0790a554-4f49-4c0f-a5be-e4344f07c961}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pathfinding">
+      <UniqueIdentifier>{a342873c-5ba3-4b2f-924b-f0e66e0c3f90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TerrainAnalyzer">
+      <UniqueIdentifier>{a33752a1-051b-45f4-95f7-2fa22ab04960}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface Implementation">
+      <UniqueIdentifier>{c14715b4-7aaf-48c3-b447-c47697b7ab90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\filesystem">
+      <UniqueIdentifier>{b3d626d2-34e2-4233-8244-0c633d2135b8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\BalanceMetrics.cpp">
+      <Filter>Balance</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DistanceTransform.cpp">
+      <Filter>Balance</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Painter.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BaseLocationGenerator.cpp">
+      <Filter>TerrainAnalyzer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PolygonGenerator.cpp">
+      <Filter>TerrainAnalyzer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\RegionGenerator.cpp">
+      <Filter>TerrainAnalyzer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utils.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GraphColoring.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BaseLocationImpl.cpp">
+      <Filter>Interface Implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BWTA.cpp">
+      <Filter>Interface Implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ChokepointImpl.cpp">
+      <Filter>Interface Implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\RegionImpl.cpp">
+      <Filter>Interface Implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ClosestObjectMap.cpp">
+      <Filter>TerrainAnalyzer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MapData.cpp" />
+    <ClCompile Include="Source\BWTA_Result.cpp" />
+    <ClCompile Include="Source\Pathfinding.cpp">
+      <Filter>Pathfinding</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\stdafx.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\LoadData.cpp" />
+    <ClCompile Include="Source\TerrainAnalysis.cpp">
+      <Filter>TerrainAnalyzer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PolygonImpl.cpp">
+      <Filter>Interface Implementation</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\BWTA\BaseLocation.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\BWTA.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\BWTA\Chokepoint.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\BWTA\Polygon.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\BWTA\RectangleArray.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\BWTA\Region.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Heap.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\stdafx.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BalanceMetrics.h">
+      <Filter>Balance</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DistanceTransform.h">
+      <Filter>Balance</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Painter.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Timer.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BaseLocationGenerator.h">
+      <Filter>TerrainAnalyzer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PolygonGenerator.h">
+      <Filter>TerrainAnalyzer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\RegionGenerator.h">
+      <Filter>TerrainAnalyzer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Utils.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GraphColoring.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BaseLocationImpl.h">
+      <Filter>Interface Implementation</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ChokepointImpl.h">
+      <Filter>Interface Implementation</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\RegionImpl.h">
+      <Filter>Interface Implementation</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ClosestObjectMap.h">
+      <Filter>TerrainAnalyzer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\LoadData.h" />
+    <ClInclude Include="Source\MapData.h" />
+    <ClInclude Include="Source\BWTA_Result.h" />
+    <ClInclude Include="Source\TileType.h" />
+    <ClInclude Include="Source\Pathfinding.h">
+      <Filter>Pathfinding</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PolygonImpl.h">
+      <Filter>Interface Implementation</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\filesystem\fwd.h">
+      <Filter>Utils\filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\filesystem\path.h">
+      <Filter>Utils\filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\filesystem\path_impl.h">
+      <Filter>Utils\filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\filesystem\resolver.h">
+      <Filter>Utils\filesystem</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
